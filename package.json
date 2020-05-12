@@ -19,8 +19,8 @@
 		"lint": "tslint -p tsconfig.json",
 		"prepare": "yarn build",
 		"prepublishOnly": "yarn test && yarn lint",
-		"preversion": "yarn lint",
-		"version": "yarn format && git add -A src",
+		"preversion": "yarn lint && yarn test",
+		"version": "yarn format && yarn build && git add -A src",
 		"postversion": "git push && git push --tags"
 	},
 	"author": "Nagman (http://quentin-webmaster.com)",
