@@ -1,0 +1,27 @@
+{
+	"name": "frenchify",
+	"version": "1.0.3",
+	"description": "A package to apply french punctuation rules (e.g. thin spaces before question marks)",
+	"keywords": [
+		"french",
+		"thin space",
+		"nbsp;",
+		"punctuation",
+		"ponctuation",
+		"français",
+		"grammaire"
+	],
+	"main": "./lib/index.js",
+	"scripts": {
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Nagman (http://quentin-webmaster.com)",
+	"license": "ISC",
+	"devDependencies": {
+		"typescript": "^3.8.3"
+	},
+	"files": [
+		"lib/**/*"
+	]
+}
