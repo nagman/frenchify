@@ -1,5 +1,5 @@
-export function frenchify(string: string) {
-	return string
+export function frenchify(str: string) {
+	return str
 		.replace(/ ([:?!;])/g, '\u202f$1')
 		.replace(/(\w)([:?!;])/g, '$1\u202f$2')
 		.replace(/" ?(.+?) ?"/g, '«\u202f$1\u202f»')
